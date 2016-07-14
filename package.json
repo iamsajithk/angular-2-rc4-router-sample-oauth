@@ -17,20 +17,20 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "awesome-typescript-loader": "^1.0.0",
     "es6-promise": "3.0.2",
     "es6-shim": "0.35.0",
+    "awesome-typescript-loader": "^1.0.0",
     "file-loader": "^0.8.5",
     "html-loader": "^0.4.3",
     "jasmine-core": "2.4.1",
     "raw-loader": "^0.5.1",
-    "reflect-metadata": "0.1.2",
     "source-map-loader": "^0.1.5",
-    "typescript": "^1.9.0-dev.20160603-1.0",
-    "typings": "^0.7.9",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0",
-    "webpack-merge": "^0.8.4"
+    "webpack-merge": "^0.8.4",
+    "typescript": "^1.9.0-dev.20160603-1.0",
+    "reflect-metadata": "0.1.2",
+    "typings": "^0.7.9"
   },
   "dependencies": {
     "@angular/common":  "2.0.0-rc.4",

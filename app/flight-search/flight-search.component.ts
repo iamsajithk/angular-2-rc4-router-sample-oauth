@@ -17,8 +17,8 @@ import { ROUTER_DIRECTIVES} from '@angular/router';
 })
 export class FlightSearchComponent {
 
-    public from: string = "Graz";
-    public to: string = "Hamburg";
+    public from: string = "Hamburg";
+    public to: string = "Graz";
     
     // public flights: Array<Flight> = [];
 

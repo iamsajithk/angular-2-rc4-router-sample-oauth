@@ -17,7 +17,7 @@ const APP_ROUTES: RouterConfig = [
         pathMatch: 'full'
     },
     {
-        path: 'home', // <-- Empty: Index Route
+        path: 'home', 
         component: HomeComponent
     },
     {

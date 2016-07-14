@@ -12,8 +12,8 @@ export class FlightBookingGuard implements CanActivate {
         route: ActivatedRouteSnapshot, 
         state: RouterStateSnapshot) {
             
-            var hasIdToken = this.oauthService.hasValidIdToken(); // Who the user 
-            var hasAccessToken = this.oauthService.hasValidAccessToken(); // access rest-service
+            var hasIdToken = this.oauthService.hasValidIdToken();  //ID --> who the user is
+            var hasAccessToken = this.oauthService.hasValidAccessToken(); // backend-service
 
             return (hasIdToken && hasAccessToken);
     }

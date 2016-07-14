@@ -61,9 +61,9 @@
 
 </table>
 -->
-<div *ngFor="let flight of flights" class="col-sm-4">
-    <flight-card    [item]="flight"
-                    [(selectedItem)]="selectedFlight">
+<div *ngFor="let flight of flights" class="col-sm-4" style="margin-bottom:40px">
+    <flight-card [item]="flight"
+                 [(selectedItem)]="selectedFlight">
    
         <a 
             class="btn btn-default" 
@@ -74,7 +74,7 @@
 </div>    
 
 
-<pre>Warenkorb:
+<pre>Your Basket:
 ------------------
 {{selectedFlight | json}} 
 </pre>
